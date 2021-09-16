@@ -1,9 +1,9 @@
 module.exports = {
     apps: [
       {
-        name: 'run develop',
+        name: 'develop',
         script: 'npm',
-        args: 'develop',
+        args: 'run develop',
       }, {
         script: 'npm',
         // seperate error logs
