@@ -1,2 +1,2 @@
 const strapi = require('strapi');
-strapi().start();
+console.log(strapi())
