@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/contact", (function(a){return {data:[{contactInfo:{id:1,email:"info@teamuitbehandeld.nl",phoneNumber:"06 - 1234 56 78",address:"den Blieklaan 33",postcode:"3766 AP Soest",instagram:a,facebook:a,linkedin:a,published_at:"2021-09-14T14:33:54.151Z",created_at:"2021-09-14T14:33:52.024Z",updated_at:"2021-09-20T08:25:45.535Z"}}],fetch:{},mutations:[]}}("@user_name")));
