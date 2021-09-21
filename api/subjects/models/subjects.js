@@ -15,12 +15,12 @@ module.exports = {
 
       if(process.env.OS && process.env.USERNAME){
         if (process.env.OS.includes("Windows") && process.env.USERNAME === "FJORDEN") {
-          exec("build.sh")
+          exec("start cmd /k build.bat")
         }
       }
 
       if(process.env.OS === undefined && process.env.USER === "tubadmin"){
-        exec("cd'../team-uitbehandeld' && npm run generate")
+        exec("./build.sh")
         console.log("Generated Website")
       }
     },

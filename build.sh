@@ -1,2 +1,2 @@
-cd "../Team Uitbehandeld/team-uitbehandeld" && npm run generate
+cd "../team-uitbehandeld" && npm run generate
 exit
