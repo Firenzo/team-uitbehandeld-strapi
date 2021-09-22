@@ -20,7 +20,8 @@ module.exports = {
       }
 
       if(process.env.OS === undefined && process.env.USER === "tubadmin"){
-        exec("./build.sh")
+        // exec("pm2 stop build || : && pm2 start build --no-autorestart")
+        exec("pm2 start build --no-autorestart")
         console.log("Generated Website")
       }
     },
