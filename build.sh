@@ -1,3 +1,3 @@
-cd "../team-uitbehandeld" && npm run generatee
+cd "../team-uitbehandeld" && npm run generate
 exit
 
