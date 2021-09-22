@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contact_infos",
   "info": {
-    "name": "contact info"
+    "name": "contact info",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,6 +22,15 @@
       "type": "string"
     },
     "postcode": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "Linkedin": {
       "type": "string"
     }
   }
