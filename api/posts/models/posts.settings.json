@@ -22,11 +22,6 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "posts"
-    },
-    "users": {
-      "plugin": "users-permissions",
-      "collection": "user",
-      "via": "postss"
     }
   }
 }
