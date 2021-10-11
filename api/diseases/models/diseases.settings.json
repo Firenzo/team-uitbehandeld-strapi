@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diseases",
+  "info": {
+    "name": "diseases",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "disease_name": {
+      "type": "string"
+    },
+    "subjects": {
+      "via": "disease",
+      "collection": "subjects"
+    }
+  }
+}

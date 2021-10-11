@@ -31,6 +31,10 @@
     "name": {
       "type": "uid",
       "targetField": "title"
+    },
+    "disease": {
+      "model": "diseases",
+      "via": "subjects"
     }
   }
 }

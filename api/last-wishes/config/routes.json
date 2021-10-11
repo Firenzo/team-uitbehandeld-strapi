@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/last-wishes",
+      "handler": "last-wishes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/last-wishes/count",
+      "handler": "last-wishes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/last-wishes/:id",
+      "handler": "last-wishes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/last-wishes",
+      "handler": "last-wishes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/last-wishes/:id",
+      "handler": "last-wishes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/last-wishes/:id",
+      "handler": "last-wishes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -24,13 +24,13 @@
     "postcode": {
       "type": "string"
     },
-    "Instagram": {
+    "instagram": {
       "type": "string"
     },
-    "Facebook": {
+    "facebook": {
       "type": "string"
     },
-    "Linkedin": {
+    "linkedin": {
       "type": "string"
     }
   }

@@ -62,6 +62,10 @@
     "posts": {
       "via": "author",
       "collection": "posts"
+    },
+    "postss": {
+      "via": "users",
+      "model": "posts"
     }
   }
 }

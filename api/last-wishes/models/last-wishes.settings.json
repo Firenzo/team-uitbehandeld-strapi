@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "last-wishes",
   "info": {
-    "name": "Posts",
+    "name": "Last Wishes",
     "description": ""
   },
   "options": {
@@ -15,18 +15,8 @@
     "title": {
       "type": "string"
     },
-    "content": {
+    "description": {
       "type": "richtext"
-    },
-    "author": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "posts"
-    },
-    "users": {
-      "plugin": "users-permissions",
-      "collection": "user",
-      "via": "postss"
     }
   }
 }
