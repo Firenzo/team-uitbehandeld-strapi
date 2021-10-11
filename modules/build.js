@@ -13,7 +13,7 @@ const buildNuxtApp = () => {
 
   //Code for building Nuxt Application on the Server
   if(process.env.OS === undefined && process.env.USER === "tubadmin"){
-    exec("pm2 stop build || : && pm2 start build --no-autorestart")
+    exec(ubuntuCommand)
     console.log("Generated Website")
   }
 }
