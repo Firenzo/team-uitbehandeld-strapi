@@ -10,7 +10,7 @@ const buildNuxtApp = () => {
 
   //Code for building Nuxt Application on the Server
   if(process.env.OS === undefined && process.env.USER === "tubadmin"){
-    exec("build.sh")
+    exec("./build.sh")
     console.log("Generated Website")
   }
 }
