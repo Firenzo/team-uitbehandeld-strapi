@@ -22,6 +22,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "posts"
+    },
+    "post_preview": {
+      "type": "text"
     }
   }
 }

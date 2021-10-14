@@ -32,6 +32,12 @@
     },
     "linkedin": {
       "type": "string"
+    },
+    "kvk": {
+      "type": "string"
+    },
+    "bsin": {
+      "type": "string"
     }
   }
 }

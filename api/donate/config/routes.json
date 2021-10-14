@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/donate",
+      "handler": "donate.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/donate",
+      "handler": "donate.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/donate",
+      "handler": "donate.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
