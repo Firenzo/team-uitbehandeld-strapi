@@ -23,7 +23,7 @@
       "model": "user",
       "via": "posts"
     },
-    "post_preview": {
+    "preview_text": {
       "type": "text"
     }
   }
