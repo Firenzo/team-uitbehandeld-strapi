@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/samenwerkingen",
+      "handler": "samenwerkingen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/samenwerkingen",
+      "handler": "samenwerkingen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/samenwerkingen",
+      "handler": "samenwerkingen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
