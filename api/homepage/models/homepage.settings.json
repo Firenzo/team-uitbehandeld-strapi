@@ -1,0 +1,111 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "content_1": {
+      "type": "richtext"
+    },
+    "content_1_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content_2": {
+      "type": "richtext"
+    },
+    "content_2_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content_3": {
+      "type": "richtext"
+    },
+    "content_3_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "green_block_1": {
+      "type": "richtext"
+    },
+    "green_block_2": {
+      "type": "richtext"
+    },
+    "banner_title": {
+      "type": "string"
+    },
+    "banner_description": {
+      "type": "string"
+    },
+    "banner_image_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "banner_image_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "banner_content_1": {
+      "type": "richtext"
+    },
+    "banner_content_2": {
+      "type": "richtext"
+    },
+    "banner_bottom_text": {
+      "type": "text"
+    }
+  }
+}
