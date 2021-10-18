@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/samenwerkingen",
-      "handler": "samenwerkingen.find",
+      "path": "/collaboration-text",
+      "handler": "collaboration-text.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/samenwerkingen",
-      "handler": "samenwerkingen.update",
+      "path": "/collaboration-text",
+      "handler": "collaboration-text.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/samenwerkingen",
-      "handler": "samenwerkingen.delete",
+      "path": "/collaboration-text",
+      "handler": "collaboration-text.delete",
       "config": {
         "policies": []
       }

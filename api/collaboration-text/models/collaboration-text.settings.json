@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "samenwerkingens",
+  "collectionName": "collaboration_texts",
   "info": {
-    "name": "Samenwerkingen"
+    "name": "Collaboration text"
   },
   "options": {
     "increments": true,
