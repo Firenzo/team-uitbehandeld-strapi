@@ -61,7 +61,7 @@
       ],
       "plugin": "upload",
       "required": false,
-      "pluginOptions": {
+      "pluginOptions": {}
     }
   }
 }
