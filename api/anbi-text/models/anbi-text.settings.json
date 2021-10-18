@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "anbi_texts",
+  "info": {
+    "name": "ANBI text"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

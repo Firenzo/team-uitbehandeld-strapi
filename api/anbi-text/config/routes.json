@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anbi-text",
+      "handler": "anbi-text.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anbi-text",
+      "handler": "anbi-text.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anbi-text",
+      "handler": "anbi-text.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
