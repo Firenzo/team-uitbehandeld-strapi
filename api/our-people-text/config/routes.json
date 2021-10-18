@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/our-people-text",
+      "handler": "our-people-text.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/our-people-text",
+      "handler": "our-people-text.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/our-people-text",
+      "handler": "our-people-text.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

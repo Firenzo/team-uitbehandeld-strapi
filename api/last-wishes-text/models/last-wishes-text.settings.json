@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "last_wishes_texts",
+  "info": {
+    "name": "Last wishes text"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

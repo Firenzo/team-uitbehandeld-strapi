@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/actueel-text",
+      "handler": "actueel-text.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/actueel-text",
+      "handler": "actueel-text.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/actueel-text",
+      "handler": "actueel-text.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/last-wishes-text",
+      "handler": "last-wishes-text.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/last-wishes-text",
+      "handler": "last-wishes-text.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/last-wishes-text",
+      "handler": "last-wishes-text.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -38,6 +38,9 @@
     },
     "bsin": {
       "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
