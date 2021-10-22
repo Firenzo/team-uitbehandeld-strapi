@@ -1,3 +1,3 @@
-cd "../Team Uitbehandeld/team-uitbehandeld"
+cd "../team-uitbehandeld"
 npm run generate
 exit
