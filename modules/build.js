@@ -1,6 +1,6 @@
 const { exec } = require('child_process');
 
-const testAutomaticBuilding = true;
+const testAutomaticBuilding = false;
 const windowsCommand = "start cmd /k build.bat";
 const ubuntuCommand = "pm2 stop build || : && pm2 start build --no-autorestart"
 
